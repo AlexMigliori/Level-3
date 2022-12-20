@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Karla", sans-serif;
+  justify-content: center;
+  background-color: rgb(218, 173, 255);
+}
+
+h1{
+  color: white;
+  text-align: center;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box {
+  height:500px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+.form--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  height: 50px;
+  border-radius: 5px;
+  border-style:outset;
+}
