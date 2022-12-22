@@ -9,10 +9,7 @@ export default function App() {
     const populateNumbers = () => {
         return Math.floor(Math.random() * 5) + 1
     }
-    //This allows for synchronous execution
-    // useEffect(() => {
-    //   console.log(numbers)
-    // })
+  
 
     const rollDice = () => {
         const diceRollingSound = new Audio(diceRolling)
